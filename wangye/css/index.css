@@ -1,0 +1,611 @@
+/*头部的css样式*/
+*{cursor: pointer;}
+.clear{clear: both;}
+
+.top{width: 100%;
+     height: 28px;
+     background:#f4f4f4;
+     font-size: 12px;
+     color:#a3a3a3;
+     line-height: 24px;
+    }
+    
+.main{width:1200px;
+      height: 28px;
+      margin: auto;
+     }
+     
+.main h2{font-weight: normal;
+         font-size: 12px;
+         width:106px;
+        }
+        
+.main h2 span,.main h2 i{float: left;}
+
+.main h2 i{width: 15px;
+           height: 15px;
+           background: url(../img/bg.png) no-repeat;
+           display: block;
+           margin-top: 6px;
+          }
+          
+.main ul{float: right;}
+
+.main ul li{float: left;padding-left: 20px;}
+
+.main ul li .red{color: red;
+                 font-weight: bold;
+                 padding-left: 2px;
+                }
+                
+.main ul li .i1{width: 18px;
+                height: 18px;
+                background: url(../img/bg.png) no-repeat -25px 0px;
+                display: block;
+                margin-top: 4px;
+               }
+               
+.main ul li .i2{width: 8px;
+                height:10px;
+                background: url(../img/bg.png) no-repeat -60px 0px;
+                display: block;
+                margin-top: 5px; 
+                margin-left: 3px;
+                }
+                
+.main ul li .i1,.main ul li .txt,.main ul li .red,.main ul li .i2{float: left;}
+
+#list{position: relative;cursor: pointer;}
+
+#nav{position: absolute;
+     width: 98px;
+     height: 96px;
+     top: 30px;
+     left: 0;
+     background:white;
+     display: none;
+    }
+#nav .tb{width: 0;
+         height: 0;
+         border-left: 5px solid transparent;
+         border-right: 5px solid transparent;
+         border-bottom: 10px solid #FFFFFF;
+         position: absolute;
+         top:-12px;
+         left: 70px;
+        }  
+        
+        
+/*head的css样式*/
+.head{width: 1200px;height: 60px;margin: auto;}
+
+.head_left,.head_center{float: left;}
+
+.head_left{width:320px;height:60px;margin-top:28px}
+
+.head_left .logo{border-right: 4px solid #dddddd;
+                 width: 186px; 
+                 height: 60px;
+                 padding-top: 6px;
+                }
+                
+.logo,.head_txt{float: left;}
+
+.head_txt{width: 108px;
+          height: 48px;
+          margin-left: 16px;
+          margin-top: 6px;
+         }
+         
+.head_txt .txt1{width: 90px;
+                height: 16px;
+                background:#ed1717;
+                padding: 5px;
+                font-size: 14px;
+                color: #fff;
+                border-radius: 5px;
+               }
+               
+.head_txt .txt2{height: 10px;
+                padding-top: 10px;
+                color: #555555;
+                font-size: 12px;
+               }
+               
+               
+/*搜索框的css样式*/
+.head_center{width: 532px;
+             height: 76px;
+             margin-left:104px;
+             margin-top: 30px;
+            }
+            
+.search{width: 460px;
+        height: 40px;
+        border: 2px solid red;
+       }
+       
+.box{width: 66px;
+     height: 44px;
+     background: red;
+     color: #fff;
+     line-height: 44px;
+     text-align: center;
+    }
+    
+.search,.box{float: left;}
+
+.search1{width: 80px;
+         height: 40px;
+         border-right: 1px solid #f0f0f0;
+         line-height: 40px;
+        }  
+.search1 .w1{
+	font-size: 14px;
+    color: #767676;
+    padding-left: 6px;
+}
+                
+.search1 a{margin-left: 2px;}
+.search1 .i2{width: 8px;
+             height:10px;
+             background: url(../img/bg.png) no-repeat -60px 0px;
+             display: block;
+             margin-top: 15px;
+             margin-left: 3px;
+            }
+.search1 .w1,.search1 .i2{float: left;}
+
+.search1,.search2{float: left;}
+
+.search2{width: 72px;
+         height: 14px;
+         font-size: 12px;
+         color: #F4F4F4;
+         margin: 12px;
+        }
+        
+.head_center p{float: left;
+               font-size: 12px;
+               color: #555555;
+               margin-top: 5px;
+              }
+              
+.head_center p a{text-decoration: none;margin: 5px;}
+
+.head_center p a.red{color: red;}
+
+
+/*导航栏的css样式*/
+.head_bottom{width: 1200px;
+             height: 40px;
+             margin: auto;
+             margin-top: 24px;
+             position: relative;
+            }
+            
+.main1{width: 200px;
+       height: 40px;
+       background: #42baff;
+       position: absolute;
+       top: 30px;
+       left: 0;
+      }
+      
+.head_bottom ul{position: absolute;
+                left: 210px;
+                top: 30px;
+                color: #404040;
+               }
+               
+.head_bottom ul li{float: left;
+                   padding-left: 38px;
+                   font-size: 16px;
+                   padding-top: 6px;
+                  }
+                  
+.head_bottom ul li.red{color: red;}
+
+.main1_txt{font-size: 16px;
+           color:#FFFFFF;
+           margin-top: 10px;
+           margin-left: 16px;
+          }
+          
+.main1_txt i{background: url(../img/bg.png) no-repeat -100px 0px;
+             width: 18px;
+             height: 18px;
+             display: block;
+             margin-top: 4px;
+            }
+            
+.main1 .main1_txt i,.main1 .main1_txt span{float: left;font-size: 16px;}
+
+/*banner的css样式*/
+.banner{width: 100%;
+        height: 462px;
+        background: #bfe7ff;
+        margin-top: 30px;
+       }
+       
+.banner_main{width: 1200px;height: 462px;margin: auto;}
+
+
+/*左边菜单的css样式*/
+.banner_left ul{-width: 200px;-height: 462px;}
+
+.banner_left ul li{width: 200px;
+	               height: 65px;
+                   border-bottom: 1px solid #84d2ff;
+                   background: #6cc9ff;
+                   position: relative;
+                   color: #fff;
+                  }
+                  
+.banner_left ul li h2{font-weight: normal;
+                      font-size: 16px;
+                      padding-left: 14px;
+                      padding-top: 14px;
+                     }
+                     
+.banner_left ul li a{font-size: 12px;padding-left: 14px;}
+
+.hide{width: 8px;
+      height:10px;
+      background: url(../img/bg.png) no-repeat -85px -2px;
+      display: block;
+      margin-top: 5px;
+     }
+
+                       
+.banner_left ul li h2 i,.banner_left ul li h2 span{float: left;}
+
+.banner_left ul li h2 span{padding-right: 96px;}
+
+.banner_left,.banner_center{float: left;}
+
+
+/*轮播图的css样式*/
+.banner_center{ position: relative;
+                width: 998px;
+                overflow: hidden;
+                height: 462px;
+               }
+.banner_center ul{position: absolute;left: 0;top: 0;}
+
+.banner_center li{float: left;}
+
+.banner_center li img{width: 998px;height: 462px;}
+
+.banner_left ul li .nav1{width: 534px;
+      height: 108px;
+      position: absolute;
+      top:0;
+      left: 200px;
+      z-index: 3;
+      background: #fff;
+      border: 2px solid #6cc9ff;
+      border-left: none;
+      display: none;
+     }
+     
+.banner_left ul li .nav1 h2{font-weight: normal;
+         font-size: 12px;
+         color: #71cbff;
+         width: 498px;
+         height: 20px;
+         border-bottom: 1px solid #71cbff;
+         margin-left: 20px;
+         padding: 0;
+         margin-top: 16px;
+        }
+        
+.banner_left ul li .nav1 a{color: #808080;margin:2px;font-size: 12px;}
+
+.banner_left ul{position: relative;}
+
+#list2 a{text-decoration: none;}
+
+#icon1{width: 100px;
+       height: 22px;
+       position: absolute;
+       top:600px;
+       left: 650px;
+      }
+      
+#icon1 ul li{float: left;
+             width: 22px;
+             height: 20px;
+             background: url(../img/bg.png) no-repeat -158px 0px;
+             margin-right: 8px;
+            }
+            
+            
+/*content的css样式*/
+.content{width: 100%;background: #f5f5f5;height: 1550px;}
+
+.content_main{width: 1200px;margin: auto;padding-top: 1px;}
+
+/*第一块主题内容的css样式*/
+.content_top{width: 1200px;
+             height: 468px;
+             background: #fff;
+             margin-top: 20px;
+             padding-top: 1px;
+            }
+            
+.title{margin-top: 26px;
+       margin-left: 20px;
+       width: 1180px;
+       height: 26px;
+       line-height: 26px;
+      }
+      
+.title_txt1{font-size: 20px;color: #303030;}
+
+.line{width: 948px;
+      height: 15px;
+      background:url(../img/line.png) repeat-x;
+      display: block;
+      margin: 0px 8px;
+      margin-top: 6px;
+     }
+     
+.title_txt1,.line,.title_txt2{float: left;}
+
+.title_txt2{font-size: 14px;color: #6a6a6a;}
+
+.top_main{margin: 18px;}
+
+.top_main ul li{width: 222px;
+                height: 366px;
+                border: 1px solid #e7e7e7;
+                float: left;
+                margin-right: 8px;
+               }
+               
+.img{width: 182px;height: 182px;margin: 18px;}
+
+.top_txt{width: 182px;height: 86px;margin-left: 20px;}
+
+.top_txt h3{color: #555555;font-size: 14px;}
+
+.top_main .top_txt a{color: #555555;
+           font-size: 12px;
+           margin-right: 45px;
+           text-decoration: none;
+           margin-top: 8px;
+          }
+          
+.blue{width: 80px;
+      height: 26px;
+      background: #91cdf1;
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 16px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 26px;
+      border-radius: 5px;
+     }
+
+.content_img{margin: 18px 0px;}
+
+/*第二块主题内容的css样式*/
+.content_body{width: 1200px;
+              height: 350px;
+              background: #fff;
+              padding-top: 1;
+              padding-top: 1px;
+              position: relative;
+             }
+             
+.title1{width: 1200px;
+        height: 40px;
+        margin-left: 18px;
+        margin-top: 26px;
+       }
+       
+.title1 h2,.title1 ul{float: left;}
+
+.title1 h2{font-size: 20px;
+           color: #000;
+           font-weight: normal;
+           margin-right: 26px;
+          }
+          
+.title1 ul li{float: left;
+              font-size: 14px;
+              color: #242424;
+              line-height: 26px;
+              height: 26px;
+              width: 102px;
+              margin-right: 20px;
+              text-align: center;
+             }
+
+.body_main1,.body_main2{position: absolute;display: none;}
+
+.body_main1 .img1,.body_main1 .body_txt{float: left;}
+
+.body_main1 .body_txt{width: 178px;
+                      margin-left: 10px;
+                      margin-top: 18px;
+                     }
+                     
+.body_main1 .body_txt h3{font-size: 14px;
+                         color: #555555;
+                         margin-bottom: 16px;
+                        }
+                        
+.body_main1 .body_txt a{font-size: 12px;
+                        color: #555555;
+                        margin-right: 35px;
+                        text-decoration: none;
+                       }
+                       
+.body_main1 .body_txt a .red{color: red;}
+
+.body_main1 .img1{margin-left: 20px;margin-top: 18px;}
+
+.body_main1 .img1 img{width: 100px;height: 100px;}
+
+.body_main1 ul li{width: 394px;
+                  height: 128px;
+                  border-bottom: 1px solid #dddddd;
+                  border-right: 1px solid #dddddd;
+                  float: left;
+                 }
+                 
+.body_main1 ul li.right{border-right: none;}
+
+.body_main1 ul li.bottom{border-bottom: none;}
+
+.body_main2 .img1,.body_main2 .body_txt{float: left;}
+
+.body_main2 .body_txt{width: 178px;margin-left: 10px;margin-top: 18px;}
+
+.body_main2 .body_txt h3{font-size: 14px;
+                         color: #555555;
+                         margin-bottom: 16px;
+                        }
+                        
+.body_main2 .body_txt a{font-size: 12px;c
+                        olor: #555555;
+                        margin-right: 35px;
+                        text-decoration: none;
+                       }
+                       
+.body_main2 .body_txt a .red{color: red;}
+
+.body_main2 .img1{margin-left: 20px;margin-top: 18px;}
+
+.body_main2 .img1 img{width: 100px;height: 100px;}
+
+.body_main2 ul li{width: 394px;
+                  height: 128px;
+                  border-bottom: 1px solid #dddddd;
+                  border-right: 1px solid #dddddd;
+                  float: left;
+                 }
+                 
+.body_main2 ul li.right{border-right: none;}
+
+.body_main2 ul li.bottom{border-bottom: none;}
+
+#pic{width: 1200px;height: 130px;position: relative;overflow: hidden;}
+#pic_list{position: absolute;left: 0;}
+.content_img1 ul li{float: left;width: 198px;height: 130px;}
+#left,#right{width: 30px;height: 130px;position: absolute;opacity: 0.2;filter:alpha(opacity=20)}
+#left{left: 0;z-index:3;}
+#right{right: 0;}
+
+
+/*第三块主题内容的css样式*/
+.content_bottom{width: 1200px;
+                height: 380px;
+                background: #fff;
+               }
+               
+.title2{margin: 20px;
+        width: 1160px;
+        height: 26px;
+        padding-top: 20px;
+        border-bottom: 1px solid #dddddd;
+        padding-bottom: 10px;
+       }
+       
+.title2_txt1{font-weight: normal;font-size: 14px;color: #202020;}
+
+.title2_txt2{font-size: 14px;color: #6a6a6a; float: right;}
+
+.title2_txt2 i{width: 14px;
+               height: 14px;
+               background: url(../img/bg.png) no-repeat -187px 0px;
+               display: block;
+               margin-left: 40px;
+               margin-top: -18px;
+              }
+              
+table{width: 100%;font-size: 12px;}
+
+table td{height: 32px; line-height: 32px;}
+
+table td .blue{color: #0066cc;
+               padding-left: 18px;
+               background: none;
+              }
+              
+table td .red{color: red;}
+table td .td{float: right;margin-right:50px;}
+
+/*foot的css样式*/
+.foot_top{width: 100%;height: 208px;background: #464b51;}
+
+.foot_main{width: 1200px;height: 208px;margin: auto;}
+
+.foot_left{width: 720px;}
+
+.foot_left ul li{color: #fff;
+                 width: 120px;
+                 float: left;
+                 padding-right: 60px;
+                }
+                
+.foot_left ul li h4{font-size: 14px;
+                    padding-bottom: 18px;
+                    width: 98px;
+                    height: 26px;
+                    padding-left: 26px;
+                    padding-top: 44px;
+                    line-height: 26px;
+                   }
+                   
+.foot_left ul li h4 i{width: 26px;
+                      height: 26px;
+                      background: url(../img/bg.png) no-repeat 0px -38px;
+                      display: block;
+                      margin-right: 8px;
+                     }
+                     
+.foot_left ul li h4 i,.foot_left ul li h4 span{float: left;}
+
+.foot_left ul li p{margin-left: 26px;font-size: 14px;line-height: 30px;}
+
+.foot_left,.foot_right{float: left;}
+
+.foot_right{width: 378px;}
+
+.foot_right .img1{width: 200px;height: 134px;}
+
+.foot_right .img1 p{text-align: center;color:#565a5e;font-size: 12px;}
+
+.foot_right .img1 .bg1{width: 130px;
+                       height: 40px;
+                       background: url(../img/bg.png) no-repeat 0px -168px;
+                       margin-left: 36px;
+                       margin-bottom: 14px;
+                      }
+                      
+.foot_right .img1,.foot_right .img2{float: left;
+                                    margin-top: 44px;
+                                    border-left: 1px solid #4e4f52;
+                                   }
+                                   
+.foot_right .img2{width: 174px;height: 134px;}
+
+.foot_right .img2 .img2_img{margin-left: 50px;}
+
+.foot_right .img2 p{font-size: 12px;color:#fff;margin-left: 58px;}
+
+.foot_bottom{width: 100%;height: 110px;background: #f5f5f5;}
+
+.foot_bottom p{text-align: center;
+               font-size: 12px;
+               color: #606060;
+               line-height: 32px;
+              }
+
+.foot_bottom p span{padding: 0px 10px;}
+
+#back{position: fixed;right: 100px;bottom: 50px;display: none;}
