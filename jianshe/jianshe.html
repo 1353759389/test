@@ -1,0 +1,689 @@
+            <!doctype html>
+            <html>
+            <head>
+            <meta charset="utf-8">
+            <title>建设银行</title>
+            <style>
+            body{margin:0px; padding:0px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif,"黑体"; cursor:pointer;
+		 overflow-x:hidden; margin:auto}
+            .clear{clear:both}
+            a{text-decoration:none}
+            .bg1{background:#0066b3; height:50px;}
+            .head{width:970px;margin:0 auto}
+            .head-left ul{margin:0px; padding:0px; list-style:none}
+            .head-left li{float:left; color:#1dd9e2; line-height:50px; padding-right:10px; font-size:16px}
+            .head-left .img1{ padding-top:10px}
+            .white{color:#fff}
+            .head-left a:link{color:#1dd9e2}
+            .head-left a:hover{color:#FFF}
+            .img1 .tc{border:1px solid #27fff7; background:#0066b3; font-size:12px; width:141px; height:28px; line-height:28px;
+            position:absolute; left:85px; top:-50px; border-radius:5px; display:none}
+            .img1 .tc a{ padding:10px}
+            .img1:hover .tc{display:block}
+            
+            .head-right{ float:right; color:#1dd9e2;font-size:14px; line-height:50px; }
+            .zx{padding-left:10px}
+            .zx a:link{color:#1dd9e2}
+            .zx a:hover{color:#FFF}
+            
+            .banner{margin:0 auto; width:1365px; height:350px}
+            
+            .header{width:980px; margin:0 auto; height:60px; background:#fff}
+            .logo{ float:left; margin-top:5px}
+            .nav{margin-left:150px}
+            .header ul{ list-style:none}
+            .header li{float:left; font-size:18px; color:#333; padding:13px 14px}
+            .header li:hover{background-color:#1693f1; color:#fff}
+            
+            .search{ width:30px; height:30px; margin-left:800px; padding-top:10px}
+            .search-w{ width:30px; height:30px; display:none; margin-top:-35px}
+            .search:hover .search-w{ display:block; background:#1693f1}
+            
+            .bj{ width:60px; height:20px; color:#333; border:1px solid #000; font-size:12px; margin-top:4px}
+            .bj:hover{background-color:#fff;}
+            .bj:hover .cs{display:block}
+            .cs{width:545px; height:250px; background:#fff; position:absolute; top:40px; left:0px; border:1px solid #ccc;
+            display:none; z-index:1}
+            .ss{width:222px; height:28px; margin-top:20px; margin-left:30px;}
+            .button{ width:80px; height:33px; background:#0066b3; color:#fff; border:0px; margin-left:10px; padding:-top:-30px;
+            font-size:16px; border-radius:5px}
+            .xz{padding-left:30px; font-size:14px; color:#333}
+            .cs span{padding:0px 12px; font-size:14px}
+            .cs span:hover{background:#ccc}
+            
+            .tc1{width:980px; height:360px; border:1px solid #efefef; background:#f8f8f8; position:absolute; left:0px; top:50px;
+            display:none; border-top:2px solid #00C; z-index:2}
+            .w4,.w1,.w2,.w3,.img2{float:left;height:310px; margin-top:25px; color:#1693f1; font-size:14px}
+            .w1{width:210px; margin-left:50px}
+            .w1 a{padding-right:15px; line-height:50px}
+            .w2{width:215px; margin-left:60px}
+            .w2 a{padding-right:15px; line-height:50px}
+            .w3{width:130px; margin-left:50px; margin-right:10px}
+            .w3 a{padding-right:15px; line-height:50px}
+            .w4{width:70px; color:#1693f1; margin-top:60px}
+            .tc1 a:link{color:#333;}
+            .tc1 a:hover{color:#00C}
+            .tc1-footer{height:50px; margin-top:310px; background:#e5e5e5;}
+            .tc1-nav{ position:absolute; top:320px; left:100px; width:500px; height:20px}
+            .tc1-footer a{ padding-right:60px; line-height:10px; font-size:12px;}
+            .header .bg2:hover .tc1{display:block; position:absolute;}
+            
+            .banner-footer{ position:absolute; left:300px; bottom:20px}
+            .banner-footer ul{margin:0px; padding:0px; list-style:none;}
+            .banner-footer li{ width:95px; height:5px; float:left;background:#fff; margin-right:20px}
+            .banner-footer .img3{position:absolute; bottom:5px; display:none}
+            .banner-footer ul:hover .img3{display:block}
+            
+            .link{width:275px; height:55px; position:absolute; left:195px; top:-355px; background:url(images/link-bg.png) no-repeat}
+            .link-img{width:160px; height:32px; color:#333; background:url(images/select.png) no-repeat right; padding-left:5px; 
+            border-left:1px solid #0066b3; margin-left:10px}
+            .link-dl{background:url(images/btn_login.png) no-repeat; margin-left:190px; margin-top:-32px; height:32px;
+            text-align:center; color:#fff; padding-top:6px; font-size:14px}
+            .link-dl:hover{filter:alpha( opacity=50); opacity:0.5}
+          .nav1{ width:160px; height:115px; border:1px solid #ccc; background:#fff; margin-top:10px; margin-left:-5px; display:none}
+            .nav1 ul{margin:0px; padding:0px; list-style:none; line-height:28px}
+            .nav1 li:hover{background:#ccc;}
+            .link-img:hover .nav1{display:block}
+            
+            .text{width:980px; margin:0 auto; height:100px; margin-top:50px}
+            .text ul{margin:0px; padding:0px; list-style:none;}
+            .text li{ float:left; padding:5px;}
+            .text .text1{ width:210px; height:100px}
+            .text .img{width:30px; line-height:100px}
+            .tb,.w1{float:left;height:75px}
+            .tb{width:50px;}
+            .wz{ width:200px; position:absolute; left:50px; top:10px}
+            .wz a{font-size:18px; color:#333}
+			.wz a:hover{color:#0066b3}
+            .wz .w{ color:#666; font-size:14px}
+            .text1 .bottom{width:210px; height:30px; background:#e9e9e9; color:#333; position:absolute;
+			top:80px; left:0px; text-align:center}
+            
+            .content{ margin-top:50px;} 
+            .content-top{margin:0 auto; width:980px}
+            .bt{font-size:28px; color:#000; border-left:10px solid #c1c1c1; padding-left:10px; width:140px; height:46px;
+            line-height:32px; padding-right:15px}
+            .top{margin-left:40px}
+            .p1{background:url(images/index_title_box.gif) no-repeat; width:308px; height:32px; line-height:32px; color:#fff;
+             font-size:14px; margin-left:150px; margin-top:-35px; padding-left:12px; padding-bottom:21px}
+             .content .head{background:#fff;  height:42px; width:1365px; margin-bottom:10px;}
+			 .content .top1{border-bottom:2px solid #efefef;}
+             .content .nav{ width:980px; margin:0 auto; height:39px}
+             .content ul{list-style:none; float:right;}
+             .content li{ float:left;font-size:18px; line-height:20px; color:#333; height:36px; padding:0px 18px}
+			 .content .title:hover{border-bottom:4px solid #0066b3; color:#0066b3}
+			 
+			 .body{margin-top:10px; margin:0 auto; width:980px}
+			 .body-left{width:690px; margin-top:50px}
+			 .left-top{ height:100px}
+			 .left-top ul{float:left;margin:0px; padding:0px; padding-left:30px; }
+			 .left-top li{ padding-right:30px}
+			 .left-top li a{font-size:18px; color:#333;}
+			 .left-top li a:hover{color:#0066b3}
+			 .left-top .p2{font-size:14px; color:#666}
+			 .left-bottom{margin-top:20px}
+			 .b-img1,.b-img2{float:left;}
+			 .b-img1{margin-left:30px}
+			 .b-img2{ margin-left:20px}
+			 
+			 .body-right{ position:absolute; right:0px; top:-30px;}
+			 
+			 .content-bottom{height:100px; background:#efefef;}
+			 .bottom-nav{width:980px; margin:0 auto}
+			 .bottom-nav ul{ list-style:none; padding-top:15px}
+			 .bottom-nav li{float:left;}
+			 .bottom-nav li .nav-img{ float:left;}
+			 .a{width:200px; height:72px; padding-left:80px; margin-top:-50px;}
+			 .a a{font-size:14px; color:#333}
+			 .a a:hover{color:#0066b3}
+			 
+			 .content-foot{width:980px; margin:auto; background:url(images/line2.png) no-repeat; margin-top:60px;
+			 text-align:center; color:#ff9900; font-size:24px; background-position:0px 40px; height:60px}
+			 
+			 .text2{width:750px; margin:auto; margin-top:10px; height:90px}
+			 .text2 ul{list-style:none;}
+			 .text2 li{float:left}
+			 .text2-img{line-height:90px}
+			 .p3{text-align:center; font-size:14px; padding:0px 20px}
+			 .p3 a:link{color:#333;}
+			 .p3 a:hover{color:#0066b3}
+			 
+			 .foot{height:250px; background:#eeeeee; margin-top:30px}
+			 .foot-nav{width:980px; margin:auto; padding-top:0.1px}
+			 .foot-nav a:link{font-size:18px; color:#000;}
+			 .foot-nav a:hover{color:#0066b3}
+			 .a1{margin-top:30px; width:980px; height:40px}
+			 .nav-menu{ margin-top:10px}
+			 .nav-menu ul{list-style:none; margin:0px; padding:0px}
+			 .nav-menu li{float:left; padding-right:10px}
+			 .day{border-bottom:1px solid #ccc; width:40px; font-size:18px; text-align:center}
+			 .month{width:40px; font-size:12px; text-align:center}
+			 .fa{ width:240px; margin-left:60px; margin-top:-45px}
+			 .p4{font-size:14px; color:#666}
+			 
+		    	 .footer-top{background:#025a9d; height:50px}
+			 .footer-nav{ width:980px; margin:auto}
+			 .footer-nav ul{list-style:none;}
+			 .footer-nav li{float:left; line-height:50px}
+			 .footer-img{padding-top:5px}
+			 .footer-nav a{font-size:14px; padding-left:20px; color:#1dd9e2}
+			 .footer-nav a:hover{color:#fff}
+			 .footer-nav .right{padding-left:150px}
+			 
+	    		 .footer-bottom{background:#0066b3; height:160px}
+			 .footer-bottom ul{list-style:none; margin:0px; padding:0px;}
+			 .footer-bottom li{float:left; }
+			 .footer-img2{ position:absolute; left:50px; top:70px}
+			 .footer-wz{ height:50px; font-size:14px; color:#fff; position:absolute; top:50px; left:100px}
+			 .bottom-nav1{width:980px; margin:auto}
+			 .ma1{width:80px; height:90px; background:#fff; font-size:12px; text-align:center; position:absolute;
+			 left:700px; top:30px; padding-top:10px}
+			 .ma2{width:80px; height:90px; background:#fff; font-size:12px; text-align:center; position:absolute;
+			 left:800px; top:30px; padding-top:10px}
+			 .ma3{width:80px; height:90px; background:#fff; font-size:12px; text-align:center; position:absolute;
+			 left:900px; top:30px; padding-top:10px}
+			 
+			 .susp-nav{width:40px; height:326px; overflow:hidden; position:fixed; top:145px; right:0px; background:#f2f2f2;
+			 border-radius:10px 0 0 10px; transition:all 0.5s; z-index:6}
+			 .susp-nav:hover{width:120px; transition:all 0.5s}
+			 .susp-nav ul{list-style:none; margin:0px; padding:0px; font-size:14px; color:#666}
+			 .susp-nav li{width:70px; height:80px; line-height:80px; padding-left:50px}
+			 .li1{background:url(images/y1.png) no-repeat 10px 30px; border-bottom:1px solid #ccc}
+			 .li2{background:url(images/y3.png) no-repeat 10px 30px; border-bottom:1px solid #ccc}
+			 .li3{background:url(images/y_55.png) no-repeat 10px 30px; border-bottom:1px solid #ccc}
+			 .li4{background:url(images/y4.png) no-repeat 10px 30px; border-bottom:1px solid #ccc}
+			 
+			 .link-nav{width:270px; height:24px; background:#fff; font-size:12px; line-height:24px;
+			 margin-left:1px;}
+			 .link-nav a{padding:0px 9px; color:#333}
+			 .link-nav a:hover{color:#0066b3}
+			 .link-menu{ width:270px;height:30px; background:url(images/lj.png) no-repeat 20px center; 
+			 background-color:#efefef; line-height:30px; margin-left:1px}
+			 .link-menu ul{margin:0px; padding:0px; list-style:none}
+			 .link-menu li{width:90px; float:left; padding-left:43px; font-size:12px; color:#0066b3}
+			 .link-menu li:hover{color:#3da4f1}
+			 .link-box{display:none}
+			 .link-bottom:hover .link-box{display:block}
+			 .link-bottom{ width:270px; height:10px}
+			 
+			 .go-top{position:fixed; right:0px; bottom:10px; background:url(images/go_top_bg.png) no-repeat 0 -244px;
+			 width:40px; height:40px}
+			 .go-top:hover{ background:url(images/go_top_bg.png) no-repeat -50px -244px}
+            </style>
+            </head>
+            
+            <body>
+               <div class="bg1">
+               <a name="top"></a>
+                <div class="head">
+                  <div class="head-left">
+                    <ul>
+                      <li><a href="#"><span  class="white">个人客户</span></a></li>
+                      <li><a href="#">私人银行</a></li>
+                      <li><a href="#">公司机构</a></li>
+                      <li><a href="#">小微企业</a></li>
+                      <li class="img1"><img src="images/sr_icon.png">
+                        <div style="position:relative">
+                          <div class="tc">
+                           <span class="sc"><a href="#">个人商城</a></span><span class="sc"><a href="#">企业商城</a></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="head-right">
+                     <span class="zx">客服热线：95533</span>
+                     <span class="zx"><img src="images/zx_icon.png"><a href="#">在线客服</a></span>
+                     <span class="zx">|</span><span class="zx"><a href="#">建行集团</a></span> 
+                     <span class="zx"><a href="#">国内分行</a></span> <span class="zx"><a href="#">网点及ATM</a></span>  
+                  </div>
+                  <div class="clear"></div>
+               </div>
+             </div>
+             <div class="header">
+              <div style="position:relative">
+                <div class="logo"><img src="images/logo.png"></div>
+                <div class="nav">
+                   <ul>
+                     <li style="background:#fff"><div class="bj">北京市﹀
+                       <div class="cs">
+                        <input type="text" placeholder="快速搜索城市" class="ss">
+                        <input type="submit" value="确定" class="button"><br><br>
+                        <span class="xz">请选择省份：</span><br>
+                       <span>安徽省</span><span>北京市</span><span>重庆市</span><span>福建省</span><span>甘肃省</span><span>广东省</span><span>广西区</span><span>贵州省</span><br><br>
+                       <span>海南省</span><span>河北省</span><span>河南省</span><span>黑龙江</span><span>湖北省</span><span>湖南省</span><span>吉林省</span><span>江苏省</span><br><br>
+                       <span>江西省</span><span>辽宁省</span><span>内蒙古</span><span>宁夏区</span><span>青海省</span><span>山东省</span><span>陕西省</span><span>山西省</span><br><br>
+                       <span>上海市</span><span>四川省</span><span>天津市</span><span>新疆区</span><span>西藏区</span><span>云南省</span><span>浙江省</span>     
+                       </div>
+                      </div>
+                     </li>
+                     <li class="bg2">信用卡
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t1.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li>
+                     <li class="bg2">投资理财
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t2.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li>
+                     <li class="bg2">存贷及银行卡
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t3.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li>
+                     <li class="bg2">电子银行
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t4.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li>
+                     <li class="bg2">悦享生活
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t5.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li>
+                     <li class="bg2">优智规划
+                        <div class="tc1">
+                      <div class="w4">信用卡></div>
+                      <div class="w1">
+                         <span class="title"><img src="images/m1.png">业务办理</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>	
+                      </div>
+                      <div class="w2">
+                         <span class="title"><img src="images/m2.png">人气产品</span><br>
+                          <a href="#">信用卡申请</a><a href="#">办卡进度查询</a><br>
+                          <a href="#">在线开卡</a>&nbsp;&nbsp;&nbsp;<a href="#">积分商城</a><br>
+                          <a href="#">账单查询</a>&nbsp;&nbsp;&nbsp;<a href="#">分期理财</a><br>
+                          <a href="#">额度调整</a>&nbsp;&nbsp;&nbsp;<a href="#">在线挂失</a><br>
+                      </div>
+                      <div class="w3">
+                         <span class="title"><img src="images/m3.png">热门推荐</span><br>
+                         <a href="#">信用卡申请</a></a><br>
+                          <a href="#">在线开卡</a><br>
+                          <a href="#">账单查询</a><br>
+                          <a href="#">额度调整</a><br>
+                      </div>
+                      <div class="img2"><a href="#"><img src="images/t6.jpg"></a></div>
+                      <div class="tc1-footer">
+                         <div class="tc1-nav">
+                            <a href="#">信用卡章程</a><a href="#">还款方式</a>
+                            <a href="#">常见问题</a><a href="#">收费标准</a></div></div>
+                   </div>
+                     </li> 
+                     <li style="color:#efefef; background:#fff">|</li>    
+                 </ul>
+                 <div class="search"><img src="images/search.png" width="30px" height="30px">
+                   <div class="search-w"><img src="images/search_w.png" width="30px" height="30px"></div>
+                 </div>
+                </div>
+              </div>  
+              <div class="clear"></div>
+             </div>
+             <div class="banner"><img src="images/banner.jpg" width="1365px" height="350">
+               <div style="position:relative">
+                 <div class="banner-footer">
+                   <ul>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                     <li><img src="images/xt.jpg" class="img3"></li>
+                   </ul>
+                 </div>
+                 <div class="link">
+                    <div class="link-img"> 个人网上银行
+                       <div class="nav1">
+                         <ul>
+                           <li>个人网上银行</li>
+                           <li>商户服务平台</li>
+                           <li>网站</li>
+                           <li>善融商务</li>
+                         </ul>
+                       </div>
+                    </div>
+                    <div class="link-dl">登录</div>
+                    <div class="link-bottom">
+                     <div class="link-box">
+                      <div class="link-nav">
+                        <a href="#">安全指引</a><a href="#">下载中心</a><a href="#">功能演示</a><a href="#">注册开通</a>
+                      </div>
+                      <div class="link-menu">
+                       <ul>
+                         <li>进入我的.com</li>
+                         <li>善融商务</li>
+                       </ul>
+                      </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="clear"></div>
+               </div>
+             </div>
+             
+               <div class="text">
+                <ul>
+                  <li class="img"><img src="images/btn_left.png"></li>
+                  <li class="text1">
+                    <div style="position:relative">
+                      <div class="tb"><img src="images/tt1.png"></div>
+                      <div class="wz">
+                        <div class="title"><a href="#">账户查询</a></div>
+                        <div class="w">快速查询各类账户信息</div>
+                      </div>
+                      <div class="bottom">马上查询&nbsp;&nbsp;&nbsp;<img src="images/up_icon.png"></div>
+                    </div>
+                  </li>
+                  <li class="text1">
+                     <div style="position:relative">
+                       <div class="tb"><img src="images/tt2.png"></div>
+                        <div class="wz">
+                        <div class="title"><a href="#">悦生活</a></div>
+                        <div class="w">生活缴费充值 信用卡</div>
+                       </div>
+                        <div class="bottom">马上办理&nbsp;&nbsp;&nbsp;<img src="images/up_icon.png"></div>
+                        </div>
+                  </li>
+                  <li class="text1">
+                     <div style="position:relative">
+                       <div class="tb"><img src="images/tt3.png"></div>
+                       <div class="wz">
+                        <div class="title"><a href="#">业务申请</a></div>
+                       <div class="w">信用卡、贷款快速申请</div>
+                       </div>
+                        <div class="bottom">马上申请&nbsp;&nbsp;&nbsp;<img src="images/up_icon.png"></div>
+                        </div>
+                  </li>
+                  <li class="text1">
+                    <div style="position:relative">
+                      <div class="tb"><img src="images/tt4.gif"></div>
+                      <div class="wz">
+                        <div class="title"><a href="#">网点业务预约</a></div>
+                       <div class="w">在线填单取号 网点办理</div>
+                      </div>
+                       <div class="bottom">马上预约&nbsp;&nbsp;&nbsp;<img src="images/up_icon.png"></div>
+                       </div>
+                  </li>
+                  <li class="img"><img src="images/icon_right.png"></li>
+                </ul>
+                <div class="clear"></div>
+             </div>
+             
+                   <div class="content">
+               <div class="content-top">
+                <div class="top">
+                  <span class="bt">快易金融</span>
+                  <div class="p1">集成资讯 产品 工具 服务，轻松选择 便捷交易</div>
+                </div>
+               </div>
+               <div class="top1">
+               <div class="head">
+                 <div class="nav">
+                   <ul>
+                     <li class="title">信用卡</li>
+                     <li class="title">投资理财</li>
+                     <li class="title">个人贷款</li>
+                     <li class="title">电子银行</li>
+                   </ul>
+                </div>
+               </div>
+               </div>
+               <div class="body">
+                <div style="position:relative">
+                 <div class="body-left">
+                    <div class="left-top">
+                       <ul>
+                         <li><a href="#">住房贷款</a>><br>
+                             <span class="p2">要买房 到建行<br>
+                                   圆你住房梦</span></li>
+                         <li><a href="#">住房贷款</a>><br>
+                             <span class="p2">要买房 到建行<br>
+                                   圆你住房梦</span></li>
+                         <li><a href="#">住房贷款</a>><br>
+                             <span class="p2">要买房 到建行<br>
+                                   圆你住房梦</span></li>
+                         <li><a href="#">住房贷款</a>><br>
+                             <span class="p2">要买房 到建行<br>
+                                   圆你住房梦</span></li>
+                       </ul>    
+                    </div>
+                    <div class="left-bottom">
+                      <div class="b-img1"><img src="images/t11.jpg"></div>
+                      <div class="b-img2"><img src="images/t12.jpg"></div>
+                    </div>
+                 </div>
+                 <div class="body-right">
+                 <img src="images/t7.jpg"></div>
+                 </div>
+                 <div class="clear"></div>
+                 </div>
+               </div>
+             </div>
+                   <div class="content-bottom">
+                <div class="bottom-nav">
+                  <ul>
+                    <li><img src="images/bg.png"></li>
+                   <li class="nav-img">
+                        <img src="images/t13.png"><div class="a"><a href="#">轻松办理信用卡</a></div>                  
+                   </li>
+                    <li class="nav-img">
+                         <img src="images/t14.png"><div class="a"><a href="#">轻松办理信用卡</a></div>
+                    </li>
+                    <li class="nav-img">
+                        <img src="images/t15.png"><div class="a"><a href="#">轻松办理信用卡</a></div>
+                    </li>
+                  </ul>
+                  <div class="clear"></div>
+                </div>
+              </div>
+               <div class="content-foot"><div style="position:relative">"心"服务&nbsp;&nbsp;新体验</div></div>
+             <div class="text2">
+                <ul>
+                  <li class="text2-img"><img src="images/btn_left.png"></li>
+                  <li class="p3"><a href="#">理财频道全新改版啦！</a><br>
+                      <p>支持在线购买理财产品，打理财富，规划人生，新版理财频道给您不一样的体验！</p>
+                  </li>
+                  <li class="text2-img"><img src="images/icon_right.png"></li>
+                </ul>
+                <div class="clear"></div>
+             </div>
+             <div class="foot">
+                <div class="foot-nav">
+                   <div class="a1"><a href="#">最新公告&nbsp;&nbsp;></a></div>
+                   <div class="nav-menu">
+                      <ul>
+                        <li><div class="day">27</div><div class="month">06月</div>
+                            <div class="fa"><a href="#">关于实施《非居民金融账户涉税信息尽...</a><br>
+                            <span class="p4">尊敬的客户：为了履行金融账户涉税信息自动交换国际义务，规范金融机构对非居民金融账户涉税信息尽职调查行为</span>
+                            </div>                       
+                        </li>
+                        <li><div class="day">27</div><div class="month">06月</div>
+                            <div class="fa"><a href="#">关于实施《非居民金融账户涉税信息尽...</a><br>
+                            <span class="p4">尊敬的客户：为了履行金融账户涉税信息自动交换国际义务，规范金融机构对非居民金融账户涉税信息尽职调查行为</span>
+                            </div>   
+                        </li>
+                        <li><div class="day">27</div><div class="month">06月</div>
+                            <div class="fa"><a href="#">关于实施《非居民金融账户涉税信息尽...</a><br>
+                            <span class="p4">尊敬的客户：为了履行金融账户涉税信息自动交换国际义务，规范金融机构对非居民金融账户涉税信息尽职调查行为</span>
+                            </div>   
+                        </li>
+                      </ul>
+                      <div class="clear"></div>
+                   </div>
+                </div>
+             </div>
+              <div class="footer-top">
+                <div class="footer-nav">
+                   <ul>
+                     <li class="footer-img"><img src="images/footer_links_img_new.gif"></li> 
+                     <li><a href="#">服务价目表</a></li>
+                     <li><a href="#">诚聘英才</a></li>
+                     <li><a href="#">积分圆梦</a></li>
+                     <li><a href="#">微公益网站</a></li>
+                     <li><a href="#">地图网站</a></li>
+                     <li><a href="#">声明友情链接</a></li>
+                     <li class="right"><a href="#">繁体</a><span style="color:#1dd9e2">/</span><a href="#">ENGLISH</a></li>
+                   </ul>
+                </div>
+             </div>
+               <div class="footer-bottom">
+              <div class="bottom-nav1">
+               <div style="position:relative">                
+                   <div class="footer-img2"><img src="images/copy_right_img.gif"></div>   
+                     <div class="footer-wz">
+                       <p>© 版权所有中国建设银行&nbsp;&nbsp;&nbsp;&nbsp;京ICP备13030780号&nbsp;&nbsp;&nbsp;&nbsp;京公网安备：110102000450 </p>
+                       <p>总行地址：中国北京西城区金融大街25号&nbsp;&nbsp;&nbsp;&nbsp;邮编：100033&nbsp;&nbsp;&nbsp;&nbsp;手机网站：m.ccb.com</p>
+                     </div>
+                     <div class="ma1"><img src="images/t32.jpg"><br>微信银行</div>
+                     <div class="ma2"><img src="images/t31.jpg"><br>官方微博</div>
+                     <div class="ma3"><img src="images/sj.jpg"><br>手机银行</div>              
+               </div>
+              </div>
+             </div> 
+             <div class="fix">
+                <div class="susp-nav">
+                   <ul>
+                     <li class="li1">我的.com</li>
+                     <li class="li2">优惠直通</li>
+                     <li class="li3">分行推荐</li>
+                     <li class="li4">快速帮助</li>
+                   </ul>
+                </div>
+                <a href="#top"><div class="go-top"></div></a>
+             </div>   
+            </body>
+            </html>
